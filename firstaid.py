@@ -73,7 +73,7 @@ def get_image_url(injury):
         "Broken or Fractured Bone": "https://media.istockphoto.com/id/692165588/photo/man-massaging-painful-wrist-on-a-white-background-pain-concept.jpg?s=612x612&w=0&k=20&c=uOa1TCKpKwx3Q52e1Zg27h_cH10jJSiKCGM0l6dcMKY=",
         "Severe Bleeding": "https://www.baptisthealthsystem.com/images/global/newsroom-ccb/infographics/when-does-bleeding-need-emergency-care/bleeding-er-care-02.jpg",
         "Fainting": "https://t3.ftcdn.net/jpg/05/80/22/36/360_F_580223666_d1y8aLXkS5DbQWrM8jNtskmb5w1WeWh8.jpg"
-        "Eye Injury": "https://di.myupchar.com/1915/eye-injury-ankh-me-chot-ke-lakshan-karan-upchar-bachav-ilaj-dawa-in-hindi-1.jpg" 
+        "Eye Injury": "https://media.istockphoto.com/id/1352475083/vector/eye-pain-of-woman-hurt-vision-vision-problem-girl-holds-on-to-eye-painful-sensations.jpg?s=612x612&w=0&k=20&c=1H0OLIngmXxnP_h8XLY6SPpv9PwnXXdDRkHakQfQl-s=" 
     }
     return image_urls.get(injury, "")
 
