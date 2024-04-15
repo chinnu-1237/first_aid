@@ -158,7 +158,7 @@ with col1:
         show_treatment("Eye Injury")
 
 # Clear button to clear all selections
-if st.button("Clear All", key="Clear"):
+if st.button("Clear All", key="Clear", help="Clear all selections"):
     st.experimental_rerun()
 
 
@@ -185,6 +185,18 @@ st.markdown(
         .clear-button:hover {
             background-color: #008000;
             border-color: #ff1493;
+        }
+        /* Style the clear button */
+        button[data-testid="stButton.Clear All"] {
+            background-color: #4b0082;
+            color: #ffffff;
+            border-color: #4b0082;
+        }
+
+        /* Change button color on hover */
+        button[data-testid="stButton.Clear All"]:hover {
+            background-color: #800080;
+            border-color: #800080;
         }
     </style>
     """,
