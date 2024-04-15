@@ -158,7 +158,7 @@ with col1:
         show_treatment("Eye Injury")
 
 # Clear button to clear all selections
-if st.button("Clear All", key="Clear", class="clear-button"):
+if st.button("Clear All", key="Clear"):
     st.experimental_rerun()
 
 
