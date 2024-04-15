@@ -153,31 +153,3 @@ with col3:
 if st.button("Clear All", key="Clear"):
     st.experimental_rerun()
 
-# Apply gradient background color
-st.markdown(
-    """
-    <style>
-        body {
-            background-color: #4e54c8;
-            background-image: linear-gradient(315deg, #4e54c8 0%, #8f94fb 74%);
-        }
-        .stButton>button {
-            background-color: #ffa500;
-            color: #ffffff;
-        }
-        .stButton>button:hover {
-            background-color: #ff6347;
-        }
-         .clear-button {
-            background-color: #ff69b4;
-            color: #ffffff;
-            border-color: #ff69b4;
-        }
-        .clear-button:hover {
-            background-color: #ff1493;
-            border-color: #ff1493;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
