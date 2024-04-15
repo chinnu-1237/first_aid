@@ -92,7 +92,7 @@ st.markdown(
             padding: 20px;
         }
         .description-line {
-            background-color: #00ff00; /* Green background */
+            background-color: #ffff00; /* yellow background */
             text-align: center;
             font-family: 'Arial', sans-serif;
             font-size: 16px;
