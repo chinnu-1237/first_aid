@@ -84,10 +84,20 @@ st.markdown(
     <style>
         .title {
             text-align: center;
+            background-color: #ffff00;
             font-family: 'Arial', sans-serif;
             font-size: 40px;
             color: #ffffff;
             text-shadow: 2px 2px #000000;
+            padding: 20px;
+        }
+        .description-line {
+            background-color: #00ff00; /* Green background */
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            color: #ffffff;
+            padding: 10px;
         }
         .stApp {
             background-image: linear-gradient(315deg, #ff6e7f 0%, #bfe9ff 74%);
@@ -114,6 +124,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+# Description Line
+st.markdown("<p class='description-line'>Click on any of the injury type to treat the injury accordingly</p>", unsafe_allow_html=True)
 
 # Display buttons for different types of injuries side by side
 col1, col2, col3 = st.columns(3)
