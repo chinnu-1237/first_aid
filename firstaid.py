@@ -96,7 +96,7 @@ st.markdown(
             text-align: center;
             font-family: 'Arial', sans-serif;
             font-size: 16px;
-            color: #ffffff;
+            color: #000000;
             padding: 10px;
         }
         .stApp {
