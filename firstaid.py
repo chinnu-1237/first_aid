@@ -150,7 +150,7 @@ with col3:
 
 
 # Clear button to clear all selections
-if st.button("Clear All", key="Clear", class="custom-clear-button"):
+if st.button("Clear All", key="Clear", class="clear-button"):
     st.experimental_rerun()
 
 
