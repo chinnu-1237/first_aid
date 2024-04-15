@@ -99,6 +99,13 @@ st.markdown(
             color: #000000;
             padding: 10px;
         }
+        .footer {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            color: #808080;
+            padding: 10px;
+        }
         .stApp {
             background-image: linear-gradient(315deg, #ff6e7f 0%, #bfe9ff 74%);
         }
@@ -173,6 +180,7 @@ with col1:
 if st.button("Clear All", key="Clear", help="Clear all selections"):
     st.experimental_rerun()
 
+st.markdown("<p class='footer'>PROJECT BY CHINMAYI H & CHAITHANYA S</p>", unsafe_allow_html=True)
 
 # Apply gradient background color
 st.markdown(
