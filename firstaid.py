@@ -54,7 +54,12 @@ def show_treatment(injury):
         st.write("2. Check their airway and breathing.")
         st.write("3. Loosen any tight clothing.")
         st.write("4. When they regain consciousness, help them sit up slowly.")
-   
+   elif injury == "Eye Injury":
+        st.write("1. Do not rub the eye.")
+        st.write("2. Gently apply a cold compress to reduce swelling.")
+        st.write("3. Do not attempt to remove any objects stuck in the eye.")
+        st.write("4. Wash eye with clean cold water gently.")
+        st.write("5. Seek medical attention immediately.")
 
 # Function to get image URL based on the injury
 def get_image_url(injury):
@@ -67,7 +72,8 @@ def get_image_url(injury):
         "Head Injury": "https://cdn.vectorstock.com/i/1000v/96/49/head-injury-vector-46779649.jpg",
         "Broken or Fractured Bone": "https://media.istockphoto.com/id/692165588/photo/man-massaging-painful-wrist-on-a-white-background-pain-concept.jpg?s=612x612&w=0&k=20&c=uOa1TCKpKwx3Q52e1Zg27h_cH10jJSiKCGM0l6dcMKY=",
         "Severe Bleeding": "https://www.baptisthealthsystem.com/images/global/newsroom-ccb/infographics/when-does-bleeding-need-emergency-care/bleeding-er-care-02.jpg",
-        "Fainting": "https://t3.ftcdn.net/jpg/05/80/22/36/360_F_580223666_d1y8aLXkS5DbQWrM8jNtskmb5w1WeWh8.jpg"
+        "Fainting": "https://t3.ftcdn.net/jpg/05/80/22/36/360_F_580223666_d1y8aLXkS5DbQWrM8jNtskmb5w1WeWh8.jpg" ,
+        "Eye Injury": "https://static.vecteezy.com/system/resources/previews/004/899/869/non_2x/boy-rubs-his-face-with-his-hand-conjunctivitis-in-child-inflammation-and-injury-of-eye-tearfulness-symptom-of-eye-disease-vector.jpg"
        }
     return image_urls.get(injury, "")
 
@@ -87,7 +93,7 @@ st.markdown(
             background-image: linear-gradient(315deg, #ff6e7f 0%, #bfe9ff 74%);
         }
         .clear-button {
-            background-color: #ff69b4;
+            background-color: #008000;
             color: #ffffff;
             border-color: #ff69b4;
         }
@@ -96,7 +102,7 @@ st.markdown(
             border-color: #ff1493;
         }
         .custom-clear-button {
-            background-color: #4b0082;
+            background-color: #008000;
             color: #ffffff;
             border-color: #4b0082;
         }
@@ -147,7 +153,9 @@ with col2:
 with col3:
     if st.button("Fainting", key="Fainting"):
         show_treatment("Fainting")
-
+with col1:
+    if st.button("Eye Injury", key="Eye Injur"):
+        show_treatment("Eye Injury")
 
 # Clear button to clear all selections
 if st.button("Clear All", key="Clear", class="clear-button"):
@@ -170,7 +178,7 @@ st.markdown(
             background-color: #ff6347;
         }
          .clear-button {
-            background-color: #ff69b4;
+            background-color: #008000;
             color: #ffffff;
             border-color: #ff69b4;
         }
