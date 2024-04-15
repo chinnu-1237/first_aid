@@ -137,7 +137,7 @@ with col3:
 
 with col1:
     if st.button("Eye Injury", key="Eye Injury"):
-    show_treatment("Eye Injury")
+        show_treatment("Eye Injury")
 
 # Clear button to clear all selections
 if st.button("Clear All", key="Clear"):
