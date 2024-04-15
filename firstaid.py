@@ -180,7 +180,7 @@ with col1:
 if st.button("Clear All", key="Clear", help="Clear all selections"):
     st.experimental_rerun()
 
-st.markdown("<p class='footer'>PROJECT BY CHINMAYI H & CHAITHANYA S</p>", unsafe_allow_html=True)
+st.markdown("<p class='footer'>PROJECT BY <br> CHINMAYI H <br> CHAITHANYA S</p>", unsafe_allow_html=True)
 
 # Apply gradient background color
 st.markdown(
