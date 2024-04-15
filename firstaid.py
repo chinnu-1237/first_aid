@@ -183,7 +183,7 @@ st.markdown(
             border-color: #ff69b4;
         }
         .clear-button:hover {
-            background-color: #ff1493;
+            background-color: #008000;
             border-color: #ff1493;
         }
     </style>
