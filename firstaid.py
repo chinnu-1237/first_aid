@@ -54,7 +54,7 @@ def show_treatment(injury):
         st.write("2. Check their airway and breathing.")
         st.write("3. Loosen any tight clothing.")
         st.write("4. When they regain consciousness, help them sit up slowly.")
-   elif injury == "Eye Injury":
+    elif injury == "Eye Injury":
         st.write("1. Do not rub the eye.")
         st.write("2. Gently apply a cold compress to reduce swelling.")
         st.write("3. Do not attempt to remove any objects stuck in the eye.")
