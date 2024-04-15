@@ -73,7 +73,7 @@ def get_image_url(injury):
         "Broken or Fractured Bone": "https://media.istockphoto.com/id/692165588/photo/man-massaging-painful-wrist-on-a-white-background-pain-concept.jpg?s=612x612&w=0&k=20&c=uOa1TCKpKwx3Q52e1Zg27h_cH10jJSiKCGM0l6dcMKY=",
         "Severe Bleeding": "https://www.baptisthealthsystem.com/images/global/newsroom-ccb/infographics/when-does-bleeding-need-emergency-care/bleeding-er-care-02.jpg",
         "Fainting": "https://t3.ftcdn.net/jpg/05/80/22/36/360_F_580223666_d1y8aLXkS5DbQWrM8jNtskmb5w1WeWh8.jpg"
-            }
+        "Eye Injury": "https://static.vecteezy.com/system/resources/previews/004/899/869/non_2x/boy-rubs-his-face-with-his-hand-conjunctivitis-in-child-inflammation-and-injury-of-eye-tearfulness-symptom-of-eye-disease-vector.jpg"   }
     return image_urls.get(injury, "")
 
 # App Title
@@ -90,6 +90,24 @@ st.markdown(
         }
         .stApp {
             background-image: linear-gradient(315deg, #ff6e7f 0%, #bfe9ff 74%);
+        }
+        .clear-button {
+            background-color: #ff69b4;
+            color: #ffffff;
+            border-color: #ff69b4;
+        }
+        .clear-button:hover {
+            background-color: #ff1493;
+            border-color: #ff1493;
+        }
+        .custom-clear-button {
+            background-color: #4b0082;
+            color: #ffffff;
+            border-color: #4b0082;
+        }
+        .custom-clear-button:hover {
+            background-color: #800080;
+            border-color: #800080;
         }
     </style>
     """,
