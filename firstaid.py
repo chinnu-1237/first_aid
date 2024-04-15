@@ -84,7 +84,7 @@ st.markdown(
     <style>
         .title {
             text-align: center;
-            background-color: #ffff00;
+            background-color: #7DF9FF;
             font-family: 'Arial', sans-serif;
             font-size: 40px;
             color: #ffffff;
@@ -92,7 +92,7 @@ st.markdown(
             padding: 20px;
         }
         .description-line {
-            background-color: #ffff00; /* yellow background */
+            background-color: #90EE90; /* yellow background */
             text-align: center;
             font-family: 'Arial', sans-serif;
             font-size: 16px;
