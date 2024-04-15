@@ -1,4 +1,4 @@
-pip install streamlit
+
 import streamlit as st
 
 def show_treatment(injury):
